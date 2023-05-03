@@ -2,12 +2,15 @@
     background-color: rgb(0, 0, 0);
 }
 
+
 .nav-link {
     color: rgb(0, 0, 0);
 }
 
 .nav-color {
     color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
 }
 
 .nav-underline .nav-link.active,
@@ -20,7 +23,7 @@
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
-    background-color:rgb(75, 117, 196) ;
+    background-color: rgb(75, 117, 196);
 }
 
 .nav-link:hover {
@@ -48,12 +51,12 @@ h5 {
 }
 
 .carousel {
-    height: 50vh;
+    height: 40vh;
     overflow: hidden;
 }
 
 .sections {
-    padding-top: 10em;
+    padding-top: 9em;
 }
 
 .product-price {
@@ -76,3 +79,4 @@ h5 {
 .h-terciary-color {
     color: rgb(116, 116, 116);
 }
+
